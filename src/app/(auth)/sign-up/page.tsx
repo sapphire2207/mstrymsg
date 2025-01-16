@@ -146,7 +146,7 @@ export default function SignUpForm() {
                   <FormLabel>Email</FormLabel>
                   <Input {...field} name="email" />
                   {/* <p className='text-muted text-gray-400 text-sm'>We will send you a verification code</p> */}
-                  <p className='text-muted text-gray-600 text-sm'>Email Verification is disabled in Demo!</p>
+                  <p className='text-muted text-gray-700 text-sm'>Email Verification is disabled in Demo!</p>
                   <FormMessage />
                 </FormItem>
               )}
